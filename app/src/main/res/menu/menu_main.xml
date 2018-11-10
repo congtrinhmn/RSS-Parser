@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.prof.rssparser.example.MainActivity">
+    <item
+        android:id="@+id/trang_chu"
+        android:orderInCategory="100"
+        android:title="Trang Chủ"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/thoi_su"
+        android:orderInCategory="100"
+        android:title="Thời Sự"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/the_gioi"
+        android:orderInCategory="100"
+        android:title="Thế Giới"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/giai_tri"
+        android:orderInCategory="100"
+        android:title="Giải Trí"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/the_thao"
+        android:orderInCategory="100"
+        android:title="Thể Thao"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/giao_duc"
+        android:orderInCategory="100"
+        android:title="Giáo Dục"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/doi_song"
+        android:orderInCategory="100"
+        android:title="Đời Sống"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/phap_luat"
+        android:orderInCategory="100"
+        android:title="Phát Luật"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+</menu>
